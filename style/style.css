@@ -1,5 +1,21 @@
 body {
-    background-image: linear-gradient(to bottom right, #fff, lightblue);
+    background-image: url(bg.jpg);
+    opacity: initial;
+}
+
+nav {
+    font-size: 24px;
+    background-color: rgba(32, 178, 171, 0.551);
+    height: 50px;
+    text-align: right;
+
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 25px;
+    height: 50px;
 }
 
 .itro-section h1 {
@@ -7,8 +23,19 @@ body {
     text-align: center;
     font-size: 75px;
     font-family: ;
+    margin-bottom: 0px;
 }
 
-.itro-section logo {
-    width: 30px;
+.sub-titel {
+    color: #fff;
+    background-color: rgba(4, 99, 252, 0.845);
+    font-size: 45px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px 510px 20px 510px;
+
+}
+
+.logo {
+    width: 50px;
 }
